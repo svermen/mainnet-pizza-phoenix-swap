@@ -24,7 +24,8 @@ module.exports = {
       network_id: 56,
       confirmations: 10,
       timeoutBlocks: 200,
-      skipDryRun: true
+      skipDryRun: true,
+      from: '0x133F97c44a03E399D4519E6Aa842df9c700b0Bef' 
     },
   },
   contracts_directory: './src/contracts/',
